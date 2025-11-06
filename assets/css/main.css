@@ -1002,7 +1002,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: #BC8A11;
+  background-color: #b843ac;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -1253,7 +1253,7 @@ section,
   inset: 10px;
   border-radius: 16px;
   background:
-    url("../../assets/img/kitchen/hero-bg.webp") no-repeat center center/cover,
+    url("/assets/img/general/hero-bg.webp") no-repeat center center/cover,
     linear-gradient(135deg, #040E18 0%, #093C70 100%);
   z-index: 0;
 }
