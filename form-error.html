@@ -2,17 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-MKSFKBDT');</script>
-    <!-- End Google Tag Manager -->
-
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Mail Not Sent</title>
@@ -42,27 +31,19 @@
 </head>
 
 <body class="bg-light">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKSFKBDT" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Form Error Section -->
-    <section id="mail-error" class="mail-error d-flex align-items-center justify-content-center min-vh-100">
-        <div class="container text-center">
-            <div class="text-center p-4">
-                <!-- <i class="bi bi-exclamation-triangle-fill text-danger" style="font-size: 5rem;"></i> -->
-
-                <img src="assets/img/error.webp" alt="Error" class="error-img img-fluid my-4">
-                <h1 class="archivo-expanded-700 mt-4 display-4">MAIL NOT SENT!</h1>
-                <p class="montserrat-400 lead mt-3">
-                    There was a problem sending your message. Please call us directly or try again later.
+    <section id="error-page" class="error-page d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <div class="error-content mx-auto">
+                <div class="error-icon mb-4">⚠️</div>
+                <h1 class="fw-bold mb-2">Oops! Something Went Wrong</h1>
+                <p class="mb-4">
+                    Sorry, something went wrong while sending your message. Please try again later or contact us
+                    directly for immediate assistance.
                 </p>
-                <div class="hero-btns mb-4">
-                    <a href="tel:7863679157" class="btn btn-outline-light cta-btn">
-                        <span class="small-text">CALL US!</span><br>
-                        <span class="big-text">CALL (786) 367-9157</span>
-                    </a>
+                <a href="/" class="btn btn-main">Back to Home</a>
+                <div class="contact-number mt-4">
+                    Or call us directly at <strong><a href="tel:+13054955681">(305) 495-5681</a></strong>
                 </div>
             </div>
         </div>
