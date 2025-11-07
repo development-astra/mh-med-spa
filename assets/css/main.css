@@ -1501,13 +1501,13 @@ form button.btn {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  background: #520962;
+  background: #b843ac;
   gap: 12px;
   align-self: stretch;
 }
 
 form button.btn:hover {
-  background-color: #b843ac;
+  background-color: #520962;
   color: #ffffff;
 }
 
